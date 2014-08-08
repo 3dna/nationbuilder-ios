@@ -48,9 +48,8 @@
     NSDictionary *infos = [NSDictionary dictionaryWithContentsOfFile:path];
     NSDictionary *info;
 #ifdef DEBUG
-    // NOTE: This configuration group is meant for internal use only, however if
-    // you have a development-specific set of NationBuilder configuration, you're
-    // more than welcome to use this.
+    // NOTE: This configuration group is meant for internal use only, unless
+    // you have a development-specific set of NationBuilder configuration.
     info = infos[NBInfoDevelopmentKey];
 #endif
     if (!info) {
