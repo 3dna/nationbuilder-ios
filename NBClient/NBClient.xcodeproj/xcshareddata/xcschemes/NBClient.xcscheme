@@ -44,15 +44,6 @@
             </SkippedTests>
          </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AAAEFC53196CD61200222A48"
-            BuildableName = "NBClientCatalogue.app"
-            BlueprintName = "NBClientCatalogue"
-            ReferencedContainer = "container:../NBClientCatalogue/NBClientCatalogue.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <CommandLineArguments>
          <CommandLineArgument
             argument = "-NBNationName abeforprez"
@@ -67,7 +58,7 @@
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "-NBClientAPIKey 9a888b2e71393a3c6b327b32366754287c813714ae51e0f7938a7ee608a064f1"
+            argument = "-NBTestToken 9a888b2e71393a3c6b327b32366754287c813714ae51e0f7938a7ee608a064f1"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
